@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Các thẻ cơ bản</title>
+</head>
+<body>
+    <h1>Các thẻ cơ bản</h1>
+    <hr>
+    <p>Đây là thẻ đoạn văn</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, impedit aspernatur inventore cumque, ipsa quis molestiae quasi quas culpa a vel voluptatum consectetur possimus incidunt aperiam accusantium saepe, nesciunt quo?</p>
+    <p>
+        <b>Chữ đậm</b>
+        <br>
+        <i>Chữ nghiên</i>
+        <br>
+        <u>Chữ gạch chân</u>
+        <br>
+        <del>Giá cũ: 1234$</del>
+        <br>
+        <strike>Chữ bị xóa</strike>
+    </p>
+    <hr>
+    <h2>Thẻ hiển thị chỉ số trên / dưới</h2>
+    <p>
+        H<sub>2</sub>O
+    </p>
+    <p>
+        Phương trình bậc 2: 
+        AX<sup>2</sup> + BX + C = 0
+    </p>
+    <h2>Thẻ hiển thị hình ảnh</h2>
+    <pre>
+        - img:
+            + src: url =>
+                ++ url: đường dẫn tuyệt đối 
+                    [giao thức]://domain/path/file
+                    vd: 
+                    https://devmaster.edu.vn/images/logo.png 
+                ++ url: đường dẫn tương đối 
+                    tính từ vị trí file html
+                        +++ vào một thư mục folder/ 
+                        +++ ra ngoài một thư mục: ../ 
+            + alt: nội dung văn bản 
+        
+    </pre>
+    <p>Sử dụng đường dẫn tuyệt đối:</p>
+    <img src="https://devmaster.edu.vn/images/logo.png" 
+        alt="Devmaster Academy">
+    <p>Sử dụng đường dẫn tương đối: </p>
+    <img src="images/logo.png" alt="Devmaster Academy">
+    <br>
+    <p>Trong cùng một thư mục</p>
+    <img src="java_web.jpg" alt="java web">
+    <p>Ảnh ở ngoài thư mục</p>
+    <img src="../asp.jpg" alt="asp net mvc ">
+</body>
+</html>

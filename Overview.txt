@@ -1,0 +1,74 @@
+Phần 1: Lập trình Frontend-ReactJs (72h - 24b)
+I/ FrontEnd (36h) 
+    1. HTML->HTML5: Web, Các thẻ cơ bản (3b)
+        - Các thẻ cơ bản
+        - table
+        - form
+        - Các thẻ bố cục nội dung
+    2. CSS - > CSS3  (3b) 
+        -  Cú pháp tương tác css với html 
+        - Bộ chọn:
+            + Phần tử
+            + Id
+            + class
+            + thuộc tính của phần tử
+            +...
+        - Tính năng mới trong CSS3
+        - responsive
+    ==> thiết trang web với html, css  
+        + Cung cấp các mẫu thiết kế => hoàn thành  1 website
+    3. Ngôn ngữ lập trình kịch bản (Javascript) (3b)
+        - syntax
+        - Biến, hằng, kiểu dữ liệu, toán tử, toán hạng, biểu thức, câu lệnh
+            khối lệnh,...
+        - I/O
+        - Các cấu trúc điều khiển: 3 loại cấu trúc
+            + Lựa chọn / rẽ nhánh
+                ++  if (4 dạng )
+
+                ++ switch
+
+            + Lặp (loop)
+                ++ for 
+
+                ++ while
+
+                ++ do...while 
+
+                ++ foreach
+
+            + Lệnh nhảy:
+                break;
+                continue;
+                return;
+        - mảng
+        - hàm 
+        - String
+        - Object
+        - ES6 (OOP)
+        - DOM (Javascript)
+    4. Thư viện Jquery (1b-2b)
+
+    5. Bootstrap (1b)
+
+    6. .psd, .ai. .xd, figma => .html 
+        => website (5-7-> webpage)
+==> 12b 
+==> rèn luyện mỗi ngày (ít nhất 2h)
+==> Tài nguyên học tập: (thư mục)
+    1. slides -> training
+    2. Labguides -> 
+        step-by-step 
+        practical
+    3. Books 
+==> editor:
+    - vs code  / sublime text
+==> quản lý tài nguyên github
+    - đăng ký tài khoản trên github
+    - cài đặt gitbash
+================================= dành khoảng 2 tuần để hoàn thành project-1
+
+
+
+            
+
