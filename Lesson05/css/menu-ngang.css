@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    border: 1px solid #000;
+    margin: 1rem;
+    background-color: green;
+}
+nav ul a{
+    display: block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    border-right: 1px solid #ccc;
+}
+nav ul a:hover{
+    background-color: yellow;
+    color: green;
+}

@@ -1,0 +1,47 @@
+/* bộ chọn *  */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Bộ chọn tag01 tag02 */
+#zone1 p{
+    color:red
+}
+/* Bộ chọn tag01 > tag02 */
+#zone1 > p {
+    background-color: green;
+}
+/* Bộ chọn tag01, tag02  */
+h1, h2, h3 {
+    color:blue
+}
+
+/* tag01 + tag02  */
+h2 + p {
+    color:green
+}
+/* tag01 ~ tag02 */
+#zone3 h2 ~ p {
+    color:yellowgreen;
+    background: cyan;
+    margin: .5rem;
+}
+/* first-child  */
+#zone4 p:first-child {
+    font-size: 2rem;
+  }
+  #zone4 p:last-child {
+    font-size: 2rem;
+  }
+
+  #zone4 p:nth-child(3) {
+    font-size: 1.5rem;
+    color: brown;
+  }
+
+  #zone4 p:nth-child(2n) {
+    color: blue;
+  }
+  #zone4 p:nth-child(2n+1) {
+    color: green;
+  }

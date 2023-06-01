@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cú pháp tương tác của CSS với html</title>
+</head>
+<body>
+    <header>
+        <h1>Cú pháp tương tác của CSS với html</h1>
+        <hr/>
+    </header>
+    <section id="zone1">
+        <pre>
+            1. Tương tác thông qua tên thẻ (h1,..)
+            2. Tương tác thông qua thuộc tính id (#zone1,..)
+            3. Tương tác thông qua thuộc tính class (.class-name)
+            4. Tương tác thông qua giá trị của thuộc tính (input[type="text"])
+        </pre>
+    </section>
+    <style>
+        h2{
+            background-color: green;
+            color: yellow;
+        }
+    </style>
+    <section id="zone2">
+        <h2>1. Tương tác thông qua tên thẻ (h1,..)</h2>
+    </section>
+
+    <style>
+         /* 2. Tương tác thông qua thuộc tính id (#zone1,..) */
+         #zone3{
+            border: 3px solid red;
+            background-color: cyan;
+         }
+    </style>
+    <section id="zone3">
+        <h2>2. Tương tác thông qua thuộc tính id (#zone1,..)</h2>
+    </section>
+
+    <style>
+        /* 3. Tương tác thông qua thuộc tính class (.class-name) */
+        .noi-dung{
+            padding:1rem;
+            color: orange;
+        }
+        .tieu-de{
+            color: blue;
+        }
+    </style>
+    <section id="zone4">
+        <h2 class="tieu-de">3. Tương tác thông qua thuộc tính class (.class-name)</h2>
+        <p class="noi-dung">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, dolorem voluptates. Vel velit itaque maiores laudantium ipsam. Amet dolores quia dicta ex deserunt velit, possimus quidem, quas cumque repudiandae voluptatibus?
+        </p>
+        <div class="noi-dung">
+            nọi dung trong thẻ div
+            <p>abslfjdsl</p>
+        </div>
+    </section>
+
+    <style>
+        /* 4. Tương tác thông qua giá trị của thuộc tính (input[type="text"]) */
+        input[type="text"]{
+            width: 100%;
+        }
+        input[type="button"]{
+            border: 1px solid #ccc;
+            padding: .25rem 1rem;
+        }
+        .btn-primary{
+            background-color: green;
+            color: #fff;
+        }
+        .btn-secondary{
+            background-color: gray;
+            color: yellow;
+        }
+    </style>
+    <section id="zone5">
+        <form action="">
+            <input type="text" name="txt1" id="txt1"> <br>
+            <input type="text" name="txt2" id="txt2"> <br>
+            <input type="text" name="txt3" id="txt3"> <br>
+            <br>
+            <input type="radio" name="rd" id="rd1"> Male 
+            <input type="radio" name="rd" id="rd2"> FeMale 
+            <br>
+            <input type="button" value="Đăng nhập" class="btn-primary">
+            <input type="button" value="Làm lại" class="btn-secondary">
+        </form>
+    </section>
+</body>
+</html>
