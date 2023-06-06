@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+
+        div:nth-child(2n) {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: example;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        div:nth-child(2n+1) {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: example1;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes example{
+            from {background-color: red;}
+            to {background-color: yellow;}
+        }
+        @keyframes example1{
+            from {background-color: green;}
+            to {background-color: orangered;}
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Animation in CSS3</h1>
+    </header>
+    <section>
+        <div></div>
+        <div></div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        div{
+            margin: 3rem;
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+        #zone1 div {
+            transform: rotate(45deg);
+        }
+        #zone2 div {
+            transform: skew(-30deg);
+        }
+        #zone3 div:hover {
+            transform: scale(2);
+            transition: all 3s;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <section id="zone1">
+        <div></div>
+    </section>
+    <section id="zone2">
+        <div></div>
+    </section>
+    <section id="zone3">
+        <div></div>
+    </section>
+</body>
+</html>

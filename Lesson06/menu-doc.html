@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        nav{
+            margin: 2rem;
+            padding: 0 .5rem .5rem .5rem;
+            background-color: #ccc;
+        }
+        nav ul{
+            list-style: none;
+            background-color: #fff;
+        }
+        nav ul li{
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: .5rem;
+        }
+        li > span {
+            color: #fff;
+        }
+        nav ul li a{
+            display: block;
+            text-decoration: none;
+            color: #373636;
+            padding: .25rem .5rem;
+        }
+        nav ul li:hover{
+            background-color: red;
+            color: #fff;
+        }
+        nav ul li:hover a{
+            color: #fff;
+        }
+        nav h5{
+            padding: .5rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h5>Danh mục sản phẩm</h5>
+        <ul>
+            <li><a href="" title="Điện máy">Điện máy </a><span>></span></li>
+            <li><a href="" title="Đồ gia dụng">Đồ gia dụng</a><span>></span></li>
+            <li><a href="" title="Công cụ & Dụng cụ">Công cụ & Dụng cụ</a><span>></span></li>
+            <li><a href="" title="Y tế & Sức khỏe">Y tế & Sức khỏe</a><span>></span></li>
+        </ul>
+    </nav>
+</body>
+</html>
