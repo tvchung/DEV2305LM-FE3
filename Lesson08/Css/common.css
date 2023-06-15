@@ -38,15 +38,66 @@ html{
 .menu{
     padding-top: 0.5rem;
 }
+
+.list-option li.item a,
 .list-option li.item .active{
     position: relative;
 }
+.list-option li.item:hover a::after,
 .list-option li.item .active::after{
     position: absolute;
     content: "";
-    top: 100%;
+    top: calc(100% + 0.15rem);
     left: 0;
-    width: 1.5rem;
+    width: 2.5rem;
     height: 0.25rem;
-    background-color: blue;
+    background-color: #69922b;
+}
+.x-menu{
+    display: none;
+}
+.w-30{
+    width: 30%;
+}
+
+body{
+    background-image: url('http://acatea.vn/Content/images/images/tin-tuc/background-tintuc.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1300px){
+    html{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 900px){
+    html{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .logo-header{
+        display: none;
+    }
+    .x-menu{
+        display: block;
+        text-align: right;
+        padding-right: 1rem;
+    }
+    .list-item, .menu{
+        display: block !important;
+    }
+    .list-option{
+        width: 100%;
+        text-align: center;
+    }
+    .menu{
+        width: 100% !important;
+    }
+    .menu .x-menu span i{
+        font-size: 1.5rem;
+    }
+
 }
