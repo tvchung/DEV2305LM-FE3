@@ -15,7 +15,7 @@ var b2 = "javascript";
     // sử dụng biến: gọi đúng tên biến
 
     console.log(a1);
-    console.log(b1);
+    console.log(b2);
 
 
 
@@ -81,5 +81,87 @@ if(m == n){
     //    case <điều_kiện_1>: 
 
 // bài tập: biện luận số nghiệm của phương trình bậc nhất một ẩn
-// có dạng:   a*x + b = 0 (với mọi a)
+// có dạng:   a*x + b = 0 (với mọi a) ===> x = -b/a
 
+
+// b1: khai báo và gán gái trị cho biến a và b
+// b2: kiểm tra giá trị của a:
+//          a = 0  => ....      | console.log("số nghiệm cảu phương trình là: 1 0 vố số")
+//          a != 0 => ....      |
+
+var a = 0;
+var b = 0;
+
+if(a == 0){ // ==> 0*x + b = 0
+    if(b == 0){  // ==> 0*x + 0 = 0
+        console.log("phương trình có vô số nghiệm");
+    }else{ // 0*x + b = 0
+        console.log("phương trình có vô nghiệm");
+    }
+}else{ // a*x + b = 0 ==> x = -b/a
+    console.log("phương trình có một nghiệm là: ", (-b)/a);
+}
+
+// bài tập: biện luận số nghiệm của phương trình bậc nhất một ẩn
+// có dạng:   a*x2 + b*x + c = 0 (với mọi a)
+
+
+
+
+
+// vòng lặp: for & while-do
+
+// cấu trúc - cú pháp: 
+    // for(<khởi tạo biến đếm>; <điều_kiện>; <thực thi>){ 
+    //      .. js ..
+    //}
+
+// vòng đời:
+// b1: vào biến đếm
+// b2: kiểm tra điều kiện
+//      nếu điều kiện: true  => chạy thân for => <thực thi> ==> quay về b2
+//      nếu điều_kiện: false =>  dừng lại - kết thúc vòng for
+
+
+// log ra màn console tất cả các giá trị từ 1 đến 10
+var k = 1;
+console.log("giá trị hiển thị: ", k);
+k = k +1;
+console.log("giá trị hiển thị: ", k);
+k++;
+console.log("giá trị hiển thị: ", k);
+k++;
+console.log("giá trị hiển thị: ", k);
+k++;
+console.log("giá trị hiển thị: ", k);
+k++;
+console.log("giá trị hiển thị: ", k);
+k++;
+console.log("giá trị hiển thị: ", k);
+k++;
+console.log("giá trị hiển thị: ", k);
+
+for(var i = 1; i <= 10 ; i++){
+    console.log("giá trị hiển thị i là: ", i);
+}
+
+// log ra màn console tất cả các giá trị là số chẵn từ 1 đến 10
+
+for(var i = 1; i <= 10 ; i++){
+   if(i % 2 == 0){
+        console.log("giá trị chẵn hiển thị là: ", i);  
+   }
+}
+
+// log ra màn console tổng tất cả các giá trị là số chẵn từ 1 đến 10
+var sum = 0;
+for(var i = 1; i <= 10 ; i++){
+    debugger;
+    if(i % 2 == 0){
+       sum =  sum + i;
+    }
+}
+console.log("tổng tất cả các giá trị là số chẵn từ 1 đến 10: ", sum);  
+
+
+// log ra màn console tích tất cả các giá trị là số lẻ từ 1 đến 10
