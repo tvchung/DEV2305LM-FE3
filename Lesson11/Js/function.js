@@ -145,7 +145,12 @@ function checkInfor(){
     }
 
     if(check == false){
-        alert("username hoặc password chưa chính xác");
+       listUser.push({
+        username : username,
+        age : 2020,
+        pass : password
+       })
+        
     } else{
         alert("username và password hoàn toàn chính xác");
     }
@@ -165,3 +170,6 @@ var demo =
     pass : "123456"
 }
 listUser.push(demo);
+
+// bài toán tìm kiếm : cho 1 tập hợp gồm n số tự nhiên; tìm xem trong hợp có chưa 
+// số x cho trước hay không

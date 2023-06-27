@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    font-size: 20px;
+}
+.d-flex{
+    display: flex;
+}
+.w-60{
+    width: 60%;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    width: 8rem;
+}
+.jus-between{
+    justify-content: space-between;
+}
+.align-item-center{
+    align-items: center;
+}
+
+.list-option li.item{
+    padding: 0.4rem 1.25rem;
+}
+.list-option li.item a{
+    color: #000;
+    font-size: 0.75rem;
+}
+.menu{
+    padding-top: 0.5rem;
+}
+
+.list-option li.item a,
+.list-option li.item .active{
+    position: relative;
+}
+.list-option li.item:hover a::after,
+.list-option li.item .active::after{
+    position: absolute;
+    content: "";
+    top: calc(100% + 0.15rem);
+    left: 0;
+    width: 2.5rem;
+    height: 0.25rem;
+    background-color: #69922b;
+}
+.x-menu{
+    display: none;
+}
+.w-30{
+    width: 30%;
+}
+
+body{
+    background-image: url('http://acatea.vn/Content/images/images/tin-tuc/background-tintuc.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1300px){
+    html{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 900px){
+    html{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .logo-header{
+        display: none;
+    }
+    .x-menu{
+        display: block;
+        text-align: right;
+        padding-right: 1rem;
+    }
+    .list-item, .menu{
+        display: block !important;
+    }
+    .list-option{
+        width: 100%;
+        text-align: center;
+    }
+    .menu{
+        width: 100% !important;
+    }
+    .menu .x-menu span i{
+        font-size: 1.5rem;
+    }
+
+}
