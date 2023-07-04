@@ -1,0 +1,21 @@
+
+.content-page .detail-content{
+ flex-wrap: wrap;   
+}
+
+/* //responsive */
+
+@media only screen and (max-width: 900px) {
+    html{
+        font-size: 24px;
+    }
+ .content-page .detail-left,
+ .content-page .detail-right{
+    width: 100% !important;
+ }
+} 
+@media only screen and (max-width: 400px) {
+    html{
+        font-size: 20px;
+    }
+} 

@@ -20,22 +20,23 @@
 <body>
     <!--  demo xây dựng fe theo thiết kế -->
     <!-- header page -->
-    <header >
+    <header class="header">
         <div class="container">
             
-            <nav class="navbar navbar-expand w-100 navbar-light bg-light">
+            <nav class="navbar navbar-expand w-100 navbar-light">
                 <div class="d-flex justify-content-between w-100">
-                  <div class="w-25">
+                  <div class="w-45">
                     <a class="navbar-brand" href="#">
                         <img src="../Images/logo.png" alt="logo">
                       </a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav2" aria-controls="navbarNav2" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
                   </div>
+                
+                  <div class="collapse navbar-collapse w-55" id="navbarNav">
                   
-                  <div class="collapse navbar-collapse w-75" id="navbarNav">
-                    <ul class="navbar-nav w-100 d-flex justify-content-between ">
+                    <ul class="navbar-nav w-100 d-flex justify-content-between " id="navbarNav2">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">TRANG CHỦ</a>
                           </li>
@@ -59,7 +60,69 @@
     </header>
     <!-- end header -->
     <!-- body page -->
+    <section class="content-page container">
+        <div class="address-page my-5">
+            <p>
+                <a href="#" title="home" class="xam-nhat"> Trang chủ</a>
+                <span class="mx-1 xam-nhat"> > </span>
+                <a href="#" title="content" class="xam-dam"> Bài viết của tôi</a>
 
+            </p>
+        </div>
+
+        <div class="detail-content d-flex justify-content-between  ">
+            <div class="detail-left w-70">
+                <div class="detail-title">
+                    <h2 class="font-36 color-xanh">Văn hóa uống trà của người Việt</h2>
+                </div>
+
+                <div class="content-detail">
+                    <p class="text-justify font-18">Trà xanh thái nguyên được phổ biến là một thức uống dân dã, quen thuộc từ bao đời nay. Cây chè xuất hiện chủ yếu ở các tỉnh Thái Nguyên, Phú Thọ, Yên Bái, Lâm Đồng… là nguồn gốc cho ra những sản phẩm chè có chất lượng cao.
+                    </p>
+                    <p class="text-justify font-18">
+                        Tùy vào đặc trưng của từng vùng địa lý, khí hậu và cách chế biến khác nhau mà tạo ra các thức uống mang hương vị đặc trưng riêng khác nhau. Lá chè tươi sau khi được hái về, rửa sạch, vò nát rồi đun nước uống liền, người ta gọi đó là chè tươi. Còn những búp chè tươi được hái về, qua nhiều công đoạn chế biến như phơi, sấy, sao khô, ướp hương hoa… thì được gọi là trà. Trà có quy trình chế biến phức tạp, nhiều công đoạn, tốn công sức hơn nên giá thành cũng cao hơn chè tươi.
+                    </p>
+                    <img class="w-100" src="https://devmaster.edu.vn/uploads/images/devmaster-campaign/devmaster-lap-trinh-vien-website-php-va-mysql-chuyen-nghiep.png" alt="">
+                
+                    <p class="text-justify font-18">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis exercitationem nulla sapiente quisquam. A soluta facilis voluptatem magnam quae quis, expedita in eos quam iste, veniam, non temporibus. Molestiae, alias.</p>
+                    <p class="text-justify font-18">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis exercitationem nulla sapiente quisquam. A soluta facilis voluptatem magnam quae quis, expedita in eos quam iste, veniam, non temporibus. Molestiae, alias.</p>
+                    <p class="text-justify font-18">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis exercitationem nulla sapiente quisquam. A soluta facilis voluptatem magnam quae quis, expedita in eos quam iste, veniam, non temporibus. Molestiae, alias.</p>
+                    <p class="text-justify font-18">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis exercitationem nulla sapiente quisquam. A soluta facilis voluptatem magnam quae quis, expedita in eos quam iste, veniam, non temporibus. Molestiae, alias.</p>
+                    
+                </div>
+            </div>
+            <div class="detail-right w-27">
+                <div class="detail-title">
+                    <h2 class="font-24">BÀI VIẾT MỚI</h2>
+                </div>
+
+                <div class="list-news">
+                    <div class="item-new d-flex justify-content-between mb-3">
+                        <div class="item-img w-25">
+                            <img class="w-100" src="../Images/news.png" alt="">
+                        </div>
+                        <div class="item-title w-70">
+                            <a href="#" class="font-18"> Trà sen tây hồ Trà sen tây hồ Trà sen tây hồ Trà sen tây hồ</a>
+                        </div>
+                    </div> <div class="item-new d-flex justify-content-between mb-3">
+                        <div class="item-img w-25">
+                            <img class="w-100" src="../Images/news.png" alt="">
+                        </div>
+                        <div class="item-title w-70">
+                            <a href="#" class="font-18"> Trà sen tây hồ Trà sen tây hồ Trà sen tây hồ Trà sen tây hồ</a>
+                        </div>
+                    </div> <div class="item-new d-flex justify-content-between mb-3">
+                        <div class="item-img w-25">
+                            <img class="w-100" src="../Images/news.png" alt="">
+                        </div>
+                        <div class="item-title w-70">
+                            <a href="#" class="font-18"> Trà sen tây hồ Trà sen tây hồ Trà sen tây hồ Trà sen tây hồ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- end body -->
     <!-- footer page -->

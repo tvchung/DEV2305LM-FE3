@@ -1,0 +1,71 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: #000;
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+}
+html{
+    font-size: 20px;
+}
+@font-face {
+    font-family: "MYRIADPRO-REGULAR";
+    src: url('../font/Font/MYRIADPRO-REGULAR.OTF');
+  }
+
+
+.w-45{
+    width: 45%;
+}
+.w-55{
+    width: 55%;
+}
+.header ul li a{
+    font-size: 0.9rem;
+    color: #000;
+    font-family: "MYRIADPRO-REGULAR";
+}
+.xam-nhat{
+    color: #bcbcbc;
+}
+.xam-dam{
+    color: #9b9b9b;
+}
+.w-27{
+    width: 27%;
+}
+.w-70{
+    width: 70%;
+}
+.font-36{
+    font-size: 1.8rem;
+}
+.font-24{
+    font-size: 1.2rem;
+}
+.color-xanh{
+    color: #899a29;
+}
+.text-justify{
+    text-align: justify;
+}
+.font-18{
+    font-size: 0.9rem;
+}
+/* //responsive */
+@media only screen and (max-width: 900px) {
+    .header .navbar-expand .navbar-toggler{
+        display: block;
+    }
+    .header #navbarNav{
+        display: none !important;
+    }
+    .w-45{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+  }
